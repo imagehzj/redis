@@ -5,7 +5,7 @@ LABEL maintainer="shoothzj@gmail.com"
 
 WORKDIR /opt/sh
 
-ARG version=6.2.5
+ARG version=6.2.6
 
 RUN wget -q http://download.redis.io/releases/redis-$version.tar.gz && \
 mkdir redis && \
